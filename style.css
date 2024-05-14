@@ -304,6 +304,7 @@ p, h1, button, h2, li, a, h3{
         width: 100%;
         height: 100%;
         padding: 1em;
+        cursor: pointer;
     }
     
     .conte-slider{
@@ -443,21 +444,6 @@ p, h1, button, h2, li, a, h3{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width:0px) and (max-width: 990px){
 
 #caja{
@@ -496,7 +482,7 @@ back{
         flex-direction: column;
     }
     .search-box{
-        width: 100vw;
+        width: 85vw;
     }
 }
 
