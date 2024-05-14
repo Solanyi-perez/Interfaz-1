@@ -420,9 +420,14 @@ p, h1, button, h2, li, a, h3{
 }
 .footherorder {
 	display: flex;
+    align-items: flex-end;
 	justify-content: space-between;
 	padding: 10px;
 	width: 80%;
+}
+.footherorder img {
+    height: 80px;
+    width: 80px;
 }
 .info {
 	display: flex;
@@ -440,6 +445,9 @@ p, h1, button, h2, li, a, h3{
     gap: 2em;
 	display: flex;
 	align-items: center;
+}
+.redes img{
+    width: 25px;
 }
 
 
@@ -607,6 +615,7 @@ back{
     width: 100%;
     flex-direction: column;
     align-items: center;
+    margin-top: 3em;
 }
 .info {
     width: 100%;
